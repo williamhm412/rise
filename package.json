@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node build.mjs",
+    "watch": "node scripts/watch.mjs",
     "start": "node scripts/serve-local.mjs",
     "verify": "node --max-old-space-size=8192 scripts/verify-samples.mjs && node scripts/verify-respiration.mjs",
     "verify:respiration": "node scripts/verify-respiration.mjs",
